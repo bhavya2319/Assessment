@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Details Form</h1>
+
+    <form>
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="percentage">Percentage Obtained:</label>
+        <input type="number" id="percentage" name="percentage" min="0" max="100" required>
+
+        <label for="topClass">Top Class:</label>
+        <input type="checkbox" id="topClass" name="topClass" value="false" checked="false">
+
+        <button type="submit">Submit</button>
+    </form>
+    
+
+</body>
+</html>
